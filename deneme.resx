@@ -1,0 +1,1291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="splitContainer1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="splitContainer1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="splitContainer1.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="bStandart1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="bStandart1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15pt, style=Bold</value>
+  </data>
+  <data name="bStandart1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAnNJREFUaEPt
+        mMvLTVEYh7fcI/dCSiRRKEVGykwGMiBKmUnMxczEPyAZkb7EyMREuQwwkdxKESkklDAwYCB3z2/b72mn
+        73zLeddae/u0n3ral7PWe97fOZ2991lFxyjjZybP40RsjOGaSOUFnISNYG+aknqYazgVs5MzyJtqexWn
+        YFZyBlmGr6r96zgNs5EziFiEz1DHd3E2ZiF3ELEQn6DO3cM5mJwmgoh5+BB1/hHOx6Q0FUTMxfuo1x7j
+        AkxGk0HELLyDev05LsYkNB1EzMCbqDEvcAlG00YQMR1voMa9xKUYRVtBhG6SV1BjdfNciW5yBhnUt+jG
+        iqSk3tyguokukIguiBFbQA+C43/vRtFakHF4Fr+hfqRrMIbWgmxEzftabc9hDN4+engL7EbNe1ptH2AM
+        3j56eAusR837UW31/BSDt48e3gIT8APa/CGMwdtHj5gCx9Dmb9OJCGL6KIkpsBptftRzEsT0URJTYAfa
+        fC0ujEUvMX2UxBQ4hZr7vdoeQC8xfZR4C2g59D3qqrUdP6FujjvRQ2tB9qLm3SqPimIXKtQX3IP7UN/Y
+        JdTN8hCOtK7VShBdevUXVfM24zrcj7ay2E+tBffDxrjxFDiImqNP/121X9ceW/70NfbDxrgZtIAus/Ub
+        odTSzlHcglqv0hrWcVTQ+rjD2A8b4+ZvC2zAy2iPJPrUT+Na7IeWfjbhVlyuEyOQPchkPIM2Tn7GVZiS
+        UB9BQgVOoo0xj2BqrLabUIGPaGPkbdS3lJpQH0FCBU6gjbmIMzEHoT6ChAqMQf2gV5RH+cgepCm6IEYX
+        JDFdEOO/C/Kv6Ga4Ym3aMUooil8s6r1+1By7ZAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="bStandart1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="bStandart1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1613, 16</value>
+  </data>
+  <data name="bStandart1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="bStandart1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 74</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="bStandart1.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="bStandart1.Text" xml:space="preserve">
+    <value>NAKİT
+(F1)
+ </value>
+  </data>
+  <data name="bStandart1.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="&gt;&gt;bStandart1.Name" xml:space="preserve">
+    <value>bStandart1</value>
+  </data>
+  <data name="&gt;&gt;bStandart1.Type" xml:space="preserve">
+    <value>BarkodluSatis.bStandart, BarkodluSatis, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bStandart1.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;bStandart1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="bÇıkıs.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="bÇıkıs.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Oswald, 24.75pt, style=Bold, Italic</value>
+  </data>
+  <data name="bÇıkıs.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAN
+        rQAADa0BPUEkowAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNui8sowAAAKmSURBVFhH
+        7Ze7axRRFIc3PgMaI1okaDRqay12Nloo+AIrRUF7C0FELMQ/xN7SShDEWFgI2gjiCxaRqIWohJB57WP2
+        jt+5s2eY12Y3mxsrf/CdM3Nn7pzfvM4wjWSI4jBcKx07MYp2EuX4qyJhmH7AYs/zDo9COiVJOr6/h1Qp
+        WEaC6id8gfQMqurCa1iwLC9vqqUvDOwlVQqWkaD6BI22520jfwA5cyk6SG+gckCwGttAgXZbzLyHX2Cg
+        rCNQnNOXGwN5wnAz+S20QPUPDfTpheEMWTXQQNfz9vFGnINL3NbdDJX3s0hQuTXg+7MUv2qXg+BG2/dr
+        TWQTkFMDcgvY9xAmbst6NwyvY2KaxcL+2QTk2oDtA2ICUhNBcA0Tu2RcySYgVwbakFAo64TMOZgzcZlt
+        U7pNgsqJAS71PFn6yER+nHlz5PQNMuYbJnbIuGxUjWWgG0VTMgazw6DwCzvLmJgrcZ4+MykHVY1r4CQ5
+        BmlUo0A0XR7Or6bVOioHVY1lII6iK/3l0ZUaWOR2HZeDqtbzDNwdCWMekr04CJpwhuUNeAs8bxq2l8dt
+        YwqCOywn5FM6LkHlwsBNkEv8nQcsazoU30/Re7KJfBq26jYJKncGkmSJp9w2IoofoOB9GSSfhUkZVySo
+        XF6BJWnFFJ+n4AMZIl8A++7nkaByaiD2vDme9FuySuGLUGjBigSVUwOc/UwvCI5R+ARUPkKKBJXzW5Cs
+        rGyxFPcpIEHl3kBxWy0SVP8NyP+AfEZfQmVHJTNgTAgfK6TK+sAwJNTpD3yGV1CYoAZ4xeS/oV7GNOmE
+        I/+aPYf0M1kv+SdogvyITORuQYdCj2t4RPFKwxlEfuUJPAM5+0FahN/polX5GVgztYMgZp6CFFxNG2Yg
+        j5gR3kFZ6zSQNP4CF11Jp0rHCEAAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="bÇıkıs.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="bÇıkıs.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="bÇıkıs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 2</value>
+  </data>
+  <data name="bÇıkıs.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="bÇıkıs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 101</value>
+  </data>
+  <data name="bÇıkıs.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="bÇıkıs.Text" xml:space="preserve">
+    <value>ÇIKIŞ</value>
+  </data>
+  <data name="bÇıkıs.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>TextAboveImage</value>
+  </data>
+  <data name="&gt;&gt;bÇıkıs.Name" xml:space="preserve">
+    <value>bÇıkıs</value>
+  </data>
+  <data name="&gt;&gt;bÇıkıs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bÇıkıs.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;bÇıkıs.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>634, 123</value>
+  </data>
+  <data name="comboBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>236, 21</value>
+  </data>
+  <data name="comboBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Name" xml:space="preserve">
+    <value>comboBox1</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lSandart4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lSandart4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="lSandart4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lSandart4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>531, 123</value>
+  </data>
+  <data name="lSandart4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 20</value>
+  </data>
+  <data name="lSandart4.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="lSandart4.Text" xml:space="preserve">
+    <value>Ürün Grubu</value>
+  </data>
+  <data name="lSandart4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lSandart4.Name" xml:space="preserve">
+    <value>lSandart4</value>
+  </data>
+  <data name="&gt;&gt;lSandart4.Type" xml:space="preserve">
+    <value>BarkodluSatis.lSandart, BarkodluSatis, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lSandart4.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;lSandart4.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="chSatisİslemi.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chSatisİslemi.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chSatisİslemi.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="chSatisİslemi.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11pt</value>
+  </data>
+  <data name="chSatisİslemi.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chSatisİslemi.Location" type="System.Drawing.Point, System.Drawing">
+    <value>402, 10</value>
+  </data>
+  <data name="chSatisİslemi.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="chSatisİslemi.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 28</value>
+  </data>
+  <data name="chSatisİslemi.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="chSatisİslemi.Text" xml:space="preserve">
+    <value>Barkodlu Urun İslemi</value>
+  </data>
+  <data name="&gt;&gt;chSatisİslemi.Name" xml:space="preserve">
+    <value>chSatisİslemi</value>
+  </data>
+  <data name="&gt;&gt;chSatisİslemi.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chSatisİslemi.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;chSatisİslemi.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tNumeric1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="tNumeric1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1037, 45</value>
+  </data>
+  <data name="tNumeric1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 19</value>
+  </data>
+  <data name="tNumeric1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="tNumeric1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tNumeric1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tNumeric1.Name" xml:space="preserve">
+    <value>tNumeric1</value>
+  </data>
+  <data name="&gt;&gt;tNumeric1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tNumeric1.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;tNumeric1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="tNumeric2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="tNumeric2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1037, 81</value>
+  </data>
+  <data name="tNumeric2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 19</value>
+  </data>
+  <data name="tNumeric2.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="tNumeric2.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tNumeric2.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tNumeric2.Name" xml:space="preserve">
+    <value>tNumeric2</value>
+  </data>
+  <data name="&gt;&gt;tNumeric2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tNumeric2.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;tNumeric2.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lKullanıcı.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="lKullanıcı.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lKullanıcı.Location" type="System.Drawing.Point, System.Drawing">
+    <value>209, -26</value>
+  </data>
+  <data name="lKullanıcı.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="lKullanıcı.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="lKullanıcı.Text" xml:space="preserve">
+    <value>lStandart</value>
+  </data>
+  <data name="&gt;&gt;lKullanıcı.Name" xml:space="preserve">
+    <value>lKullanıcı</value>
+  </data>
+  <data name="&gt;&gt;lKullanıcı.Type" xml:space="preserve">
+    <value>BarkodluSatis.lSandart, BarkodluSatis, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lKullanıcı.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;lKullanıcı.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="tNumeric5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="tNumeric5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1037, 244</value>
+  </data>
+  <data name="tNumeric5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 19</value>
+  </data>
+  <data name="tNumeric5.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="tNumeric5.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;tNumeric5.Name" xml:space="preserve">
+    <value>tNumeric5</value>
+  </data>
+  <data name="&gt;&gt;tNumeric5.Type" xml:space="preserve">
+    <value>BarkodluSatis.tNumeric, BarkodluSatis, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tNumeric5.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;tNumeric5.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lSandart10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lSandart10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="lSandart10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lSandart10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>942, 244</value>
+  </data>
+  <data name="lSandart10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 20</value>
+  </data>
+  <data name="lSandart10.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="lSandart10.Text" xml:space="preserve">
+    <value>Ürün Sayisi</value>
+  </data>
+  <data name="&gt;&gt;lSandart10.Name" xml:space="preserve">
+    <value>lSandart10</value>
+  </data>
+  <data name="&gt;&gt;lSandart10.Type" xml:space="preserve">
+    <value>BarkodluSatis.lSandart, BarkodluSatis, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lSandart10.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;lSandart10.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="tStandart4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="tStandart4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>635, 245</value>
+  </data>
+  <data name="tStandart4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>236, 19</value>
+  </data>
+  <data name="tStandart4.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;tStandart4.Name" xml:space="preserve">
+    <value>tStandart4</value>
+  </data>
+  <data name="&gt;&gt;tStandart4.Type" xml:space="preserve">
+    <value>BarkodluSatis.tStandart, BarkodluSatis, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tStandart4.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;tStandart4.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lSandart9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lSandart9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="lSandart9.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lSandart9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lSandart9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>551, 244</value>
+  </data>
+  <data name="lSandart9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 20</value>
+  </data>
+  <data name="lSandart9.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="lSandart9.Text" xml:space="preserve">
+    <value>Ürün Ara</value>
+  </data>
+  <data name="&gt;&gt;lSandart9.Name" xml:space="preserve">
+    <value>lSandart9</value>
+  </data>
+  <data name="&gt;&gt;lSandart9.Type" xml:space="preserve">
+    <value>BarkodluSatis.lSandart, BarkodluSatis, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lSandart9.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;lSandart9.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="bStandart5.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="bStandart5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15pt, style=Bold</value>
+  </data>
+  <data name="bStandart5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vwAADr8BOAVTJAAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNui8sowAAAKRSURBVFhH
+        xZdNqE1RGIavy0UkIgNGQigjoZhIGSkiEpEUMbiKItdFipIyZSKRoRRhYm5o4Gdwuq6J/5+iJN2Uztnn
+        eN51fMeyrH3sva3LW0/f2t8+9+53r59vr9XTarUq02w2FxAPwGM4YfkyRJM5zIJV0A8X4R68hK/QhEGI
+        /V1XfkvU6/Ve3mwu7XVwEm7CU/gG3VTZwFLYBGfhLjyHDMrqKPTChIKMA2cglfbCenhfkBdwOaWBPbC1
+        3SyulAZ2w452s7hSGtgPy+Gqxwg8YlLfIPoo75TSwDHQ//N5BeqVMK9V5aSLUJ9BDjsuA9m9T+7qpwZY
+        wn2NRmOaQe4dHAK1fbTSnGIGzsNUmAkaV1+3QHndP62EJ62CDaAXMLScVaj8nOWdYgZGGLPZROuuYSVR
+        A+aDSvB0YtgDMruz3SyumAHpNpiBXUqgS2C560oEOgjzQKXa0NteC3LiIzjlGZDWgN62jzj8ozzr96sh
+        puNgBg1Nwi1BTlivuos8DTGpxhBlYolilmUqn090M6LDoKFZ4aE3PRfkxBtw6mZAUn33nZ+CPKkSbms3
+        i+tPBo6Ab0DXeUpu4D64BzMEqnBm4gHElHQIMh66mKiHzyE+I07RNSyDmJJOwjNgP76iBNL4W047olDJ
+        luFQrVazBy0Cq1pf6IUZRPXKJKLKrK8khagOa2EiTIY74OsCKD8e9oH2giaV4o0QltxSpVjlVhPkA3S6
+        KZDuibfgGxgAFS3/o6OdT+mPUVXFPsevofTnuKr6mRsrQbto23io+x+S8zcjYlQ2JJqE29vN4kpp4L9v
+        Sitvy3Uw2Qx2MNGNzjIpocoHk19gLzeW+E+PZoVgJtvhVNvv0TuclgFTC4l/cTxv9XwHU7KHZjbJ3zYA
+        AAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="bStandart5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="bStandart5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1613, 189</value>
+  </data>
+  <data name="bStandart5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="bStandart5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 74</value>
+  </data>
+  <data name="bStandart5.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="bStandart5.Text" xml:space="preserve">
+    <value>NAKİT
+(F1)
+ </value>
+  </data>
+  <data name="bStandart5.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="&gt;&gt;bStandart5.Name" xml:space="preserve">
+    <value>bStandart5</value>
+  </data>
+  <data name="&gt;&gt;bStandart5.Type" xml:space="preserve">
+    <value>BarkodluSatis.bStandart, BarkodluSatis, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bStandart5.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;bStandart5.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="bKaydet.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="bKaydet.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15pt, style=Bold</value>
+  </data>
+  <data name="bKaydet.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADAAAAAgCAYAAABU1PscAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAN
+        rQAADa0BPUEkowAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNui8sowAAAIFSURBVFhH
+        1Zi/TsJQFMaRxEdh1RdgcsPFuLlhHAwLwUkTB+Nm4iKJLi4OuLmYujn5Bj4A0ScwkUCBQu0fv1ZAaL97
+        KbW9tif55dyee096vtt/t7fgum4sSqXSmq7rVdanEhqMwng8bjqO8wm/zfpVQYPLME2zCe8bRFiqRFBj
+        A2Wg2AsUjeav4fgLtoMmzUmC0WhUwznewds8dLAIwzDO4anhqlzC0bwksCzrDD5kdDADM3ASnPmpYSZu
+        4GheUuAcp/Aho4ODoPgjSfG3cDQvSWILGA6HNUnxLTialzSxBOCe35cU/wBH89JgZQEofk9UPB4oLc4b
+        7C+sJKDf7+9KZv5Z07QimjQ3LSILGAwGFRRvox0yzPxLu91eRzOUlzaRBKD4Ldu2Ta8jYA6Kf4JfGK8S
+        fGca8CGbDeh2u2XMvOFHA4a496l9hIg7cK8anLuFiX2dlLNgfvFYVW5igP4TypcVOp3OIYr/mBznzvIv
+        wAO30EZub6EpvV6vDBGZfIhlzAR4ZPk1KiIUwOKtAhGZ+5CJoEE8E5lbSoigQQ9ciUwt5kTQ4BSsSKuS
+        K6F0OS2CBufJyg+NCBoMgl/KhkSEkl9KETTIgIhjiYhrOJqXNjQo4j+3VUTQoAzRxhYEpLqxJYIGlwER
+        V/C+oXhlW4sMGowCis7v5q5HvV4vYu10wPrU4Ra+AeVHkTjLFC+3AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="bKaydet.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="bKaydet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1168, 156</value>
+  </data>
+  <data name="bKaydet.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="bKaydet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 72</value>
+  </data>
+  <data name="bKaydet.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="bKaydet.Text" xml:space="preserve">
+    <value>Kaydet</value>
+  </data>
+  <data name="bKaydet.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="&gt;&gt;bKaydet.Name" xml:space="preserve">
+    <value>bKaydet</value>
+  </data>
+  <data name="&gt;&gt;bKaydet.Type" xml:space="preserve">
+    <value>BarkodluSatis.bStandart, BarkodluSatis, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bKaydet.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;bKaydet.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="bStandart3.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="bStandart3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15pt, style=Bold</value>
+  </data>
+  <data name="bStandart3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA68AAAOvAGVvHJJAAAAB3RJ
+        TUUH4wUeCycdkbRdDQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAKpSURBVEhL
+        nVbLbhNBEDTBgg/gJd7fg0iiXBAIcUNAxPNbOCAEsYnEBYl7gBMRkC/gkBjlmoSEWzy7ySHeDFU9NcOu
+        d+2YlNSSt6unpqenZ8atcfD7+9cK554dZtmXIst6sEy2Bt9ncE/83t4VhU8ODLqMwW8gNID5I6w4zPOP
+        SOa6ho/HIM/nijx3JYFtTLYA/wPYNA38Q/g7sJ1SXB/cjGSagaAXsEIDNjDgvvf+pOgawLU5MWI3NaZg
+        SUVXgcA5C0Agfq94586LOhK+3z+DPfkaJ8H4WVEB3KhYlkGWLSOzU6ImBsdg7HdN0vd5fkmUlaYrYoPZ
+        yP3fwKrPQWPLtJx7G5xsRXULa27OEjgImd1FhlNyMdsp8zWUUQ3AZA+shbkpcmxjYGVDldGq+EUK0/A7
+        rnh1eBLwbfhDd+GctOzAhI8FxSQMnLstoWiLsChuhpg7Ck+IMdBe4pLWLRDtJj4B2ZwA/yqKNViXK1J4
+        AsY8Et/jR+iePL8pvoIxkzSKE9CasRholyeYFl+BTeDc65JwtA/gGg8htGYVs8t6/bIP7L74BGYIrlLz
+        IbONV3gCtP6VKG0y7hbxCQ2b3GF/l31o13sKT4D/Hbmwyc49VfAOsmkrxsBDB/9P8R1ma6tCx8nX81l2
+        QeEGasD/x3jnHvOauIqPeNDqnYRJsJJb5VLwN9tzxEGbN/F40MwZrl46NyF41pzHACeExm/TwnsiNwg+
+        MLigSKCm35DhcS6706jADxNH9+CyuygqAOQNELFUK8O1HQeuGoktS5zXdfPDg2U9Z4ACt9i63DTRNZBT
+        zUNZOHbUgxOB2XlIrFwydkSXvc3MaBJlK4ZuCbYLrvGw1qBb9CXsoCQwyrji97WaTwJ76XDl4sB8gsga
+        Mndm4W/LEvs8tWIjWq2/Cc5iqR7jaGUAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="bStandart3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="bStandart3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1037, 156</value>
+  </data>
+  <data name="bStandart3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="bStandart3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 72</value>
+  </data>
+  <data name="bStandart3.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="bStandart3.Text" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="bStandart3.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="&gt;&gt;bStandart3.Name" xml:space="preserve">
+    <value>bStandart3</value>
+  </data>
+  <data name="&gt;&gt;bStandart3.Type" xml:space="preserve">
+    <value>BarkodluSatis.bStandart, BarkodluSatis, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bStandart3.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;bStandart3.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="bStandart2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="bStandart2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15pt, style=Bold</value>
+  </data>
+  <data name="bStandart2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEAAAAAgCAYAAACinX6EAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNui8sowAAARKSURBVGhD
+        7ZlfiFdFFMd3c0tl88+2mRu21kqRu669WOqyqJn7kkGF/SEqcsUtXWMtXUEFy5KeSkWhl1IQAo2KfKtH
+        g0CzSCOK6MWXnnpIYsFd770zv9/4OfObGWevv+C3Qi81F77MnO85Z86Z72/uvcvepmqer4+htW43xjRV
+        ler1nNG6raJUh7WV6hc/dl/wG9Picvo9Z6H1IpPnM6K4ZmK64xjJs1CqNebrgZoLfHxcfxKUesjG0HPZ
+        B39D/aZKUZgYSqkBW6AoPvYc5Bqd5885+6L4dVGcD35j2lzORc9ZKLXbTEzc422u2xgPB3+NqwmQ54tj
+        vh6oucnHx/VLOGFj6Lns47qh/s0IcME18F3wXxfggucs/l0BQv0SkgA2JgmQBEgClH1cSQDGJEDMJQFi
+        Q5AESAIkAZIAsgDzJIDnkgBJgCRAEiAJkAT4/wlwynOQAwjwkrMvuQZ+C35j7nA5lzxnodQ7CLDQ21zS
+        wEfBX+O8AEtivh6oudXHx/VL+MLG0HPZxzUlAeQXeUwAORcB5jn7EdfAsuB3/xYXn+cslFqIAFLUxzUz
+        PhD8Nc4LMDPm64Gad/v4uH4J3TaGnss+eKnfmAD/VbDHqQvwN8qVuX/CmDG31OMzY6bV428KlUrdGmVw
+        6G8tc+yxcQEKre/k6O/iuG3D97rn4R7EfhOMeM5kWXtVqRFiR+D3gx4Xu7haFFuwt1W03mWuXp0TcgD8
+        k+BAsLWWr0ujkgOkZm0TY2MtrP1iJc+HwKM2Nsv6JcZBarwvPDUXscYWbsFXiH2DTXXYNSRnKgJgnwHP
+        sEgX+IQFX7V8li2l4GYa+tXHIsDtcCvxdTE+Td4vwtNMB/Ol5PcwngNP+Bx8L2MfxZd7Dvs0ze+k1gog
+        93yzVqoV/nPwNtyzRZ7Pdvnz4bpBF/gUHHRrHDdFsZNeFjA/Rs5wtH7DArRh/+UTVZ6v4hf+2ts8tO5D
+        gLPBjkDeXnAo2ORiv8t4hgL2lVnVegjuAxf/p49FvH3YcuLeAoMuf5RNfAteoIftjEfM+Hirz+HUyAPx
+        q2AXxTpwnrx99Pg9P869ka9hAeSpfNknstAm7GPeRoAeuHPBBjTWTowUfS3mBWxsFg3twX+IGr2MP8Lt
+        ASLWOBsbnRR/5cos+IJfspO895gfDj6lfqfWWjuvVufg+5kxvCGwf9BZJjXm0csgNU5GvsZvAY6i3NMH
+        wWZ8Jzly93uf+8PlG28zXw5+Al+CQSAiTKf5xyUfbGQux/F5atTWADQnr6Y/2FQzr8zZzIelaWJ3cPQ/
+        JKaF+E56OQ4/BIaJOcGzZC6+acw/A0/59QTYp8jfzpobwH5q7Ih8kwVg4UmfkP3ncQ8K9gF5j3bGPA1M
+        52gFQfDLfdgH5DiuFcC30Eg3+evAAOv3hvwIxC6x84mJGZInsYxr4hjEv0v6cL3MdLyIZ/8uKQN+NZtf
+        zeYfjnm46PN4vv4adKocg9kk/rgAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="bStandart2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="bStandart2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>539, 159</value>
+  </data>
+  <data name="bStandart2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="bStandart2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>331, 75</value>
+  </data>
+  <data name="bStandart2.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="bStandart2.Text" xml:space="preserve">
+    <value>Barkod Oluştur</value>
+  </data>
+  <data name="bStandart2.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="&gt;&gt;bStandart2.Name" xml:space="preserve">
+    <value>bStandart2</value>
+  </data>
+  <data name="&gt;&gt;bStandart2.Type" xml:space="preserve">
+    <value>BarkodluSatis.bStandart, BarkodluSatis, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bStandart2.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;bStandart2.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="tNumeric4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="tNumeric4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1168, 118</value>
+  </data>
+  <data name="tNumeric4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 19</value>
+  </data>
+  <data name="tNumeric4.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="tNumeric4.Text" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="tNumeric4.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tNumeric4.Name" xml:space="preserve">
+    <value>tNumeric4</value>
+  </data>
+  <data name="&gt;&gt;tNumeric4.Type" xml:space="preserve">
+    <value>BarkodluSatis.tNumeric, BarkodluSatis, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tNumeric4.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;tNumeric4.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="tNumeric3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="tNumeric3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1037, 119</value>
+  </data>
+  <data name="tNumeric3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 19</value>
+  </data>
+  <data name="tNumeric3.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="tNumeric3.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tNumeric3.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tNumeric3.Name" xml:space="preserve">
+    <value>tNumeric3</value>
+  </data>
+  <data name="&gt;&gt;tNumeric3.Type" xml:space="preserve">
+    <value>BarkodluSatis.tNumeric, BarkodluSatis, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tNumeric3.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;tNumeric3.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="lSandart8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lSandart8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="lSandart8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lSandart8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1184, 85</value>
+  </data>
+  <data name="lSandart8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 20</value>
+  </data>
+  <data name="lSandart8.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="lSandart8.Text" xml:space="preserve">
+    <value>KDV Oranı</value>
+  </data>
+  <data name="&gt;&gt;lSandart8.Name" xml:space="preserve">
+    <value>lSandart8</value>
+  </data>
+  <data name="&gt;&gt;lSandart8.Type" xml:space="preserve">
+    <value>BarkodluSatis.lSandart, BarkodluSatis, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lSandart8.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;lSandart8.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="lSandart7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lSandart7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="lSandart7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lSandart7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>979, 123</value>
+  </data>
+  <data name="lSandart7.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="lSandart7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 20</value>
+  </data>
+  <data name="lSandart7.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="lSandart7.Text" xml:space="preserve">
+    <value>Miktar</value>
+  </data>
+  <data name="lSandart7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lSandart7.Name" xml:space="preserve">
+    <value>lSandart7</value>
+  </data>
+  <data name="&gt;&gt;lSandart7.Type" xml:space="preserve">
+    <value>BarkodluSatis.lSandart, BarkodluSatis, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lSandart7.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;lSandart7.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="lSandart6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lSandart6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="lSandart6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lSandart6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>945, 83</value>
+  </data>
+  <data name="lSandart6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 20</value>
+  </data>
+  <data name="lSandart6.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="lSandart6.Text" xml:space="preserve">
+    <value>Satış Fiyati</value>
+  </data>
+  <data name="&gt;&gt;lSandart6.Name" xml:space="preserve">
+    <value>lSandart6</value>
+  </data>
+  <data name="&gt;&gt;lSandart6.Type" xml:space="preserve">
+    <value>BarkodluSatis.lSandart, BarkodluSatis, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lSandart6.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;lSandart6.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="lSandart5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lSandart5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="lSandart5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lSandart5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>956, 44</value>
+  </data>
+  <data name="lSandart5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 20</value>
+  </data>
+  <data name="lSandart5.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lSandart5.Text" xml:space="preserve">
+    <value>Alış Fiyati</value>
+  </data>
+  <data name="&gt;&gt;lSandart5.Name" xml:space="preserve">
+    <value>lSandart5</value>
+  </data>
+  <data name="&gt;&gt;lSandart5.Type" xml:space="preserve">
+    <value>BarkodluSatis.lSandart, BarkodluSatis, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lSandart5.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;lSandart5.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="tStandart3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="tStandart3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>634, 89</value>
+  </data>
+  <data name="tStandart3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>236, 19</value>
+  </data>
+  <data name="tStandart3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tStandart3.Name" xml:space="preserve">
+    <value>tStandart3</value>
+  </data>
+  <data name="&gt;&gt;tStandart3.Type" xml:space="preserve">
+    <value>BarkodluSatis.tStandart, BarkodluSatis, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tStandart3.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;tStandart3.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="tStandart2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="tStandart2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>634, 53</value>
+  </data>
+  <data name="tStandart2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>236, 19</value>
+  </data>
+  <data name="tStandart2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tStandart2.Name" xml:space="preserve">
+    <value>tStandart2</value>
+  </data>
+  <data name="&gt;&gt;tStandart2.Type" xml:space="preserve">
+    <value>BarkodluSatis.tStandart, BarkodluSatis, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tStandart2.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;tStandart2.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="tBarkod.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="tBarkod.Location" type="System.Drawing.Point, System.Drawing">
+    <value>634, 15</value>
+  </data>
+  <data name="tBarkod.Size" type="System.Drawing.Size, System.Drawing">
+    <value>236, 19</value>
+  </data>
+  <data name="tBarkod.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tBarkod.Name" xml:space="preserve">
+    <value>tBarkod</value>
+  </data>
+  <data name="&gt;&gt;tBarkod.Type" xml:space="preserve">
+    <value>BarkodluSatis.tStandart, BarkodluSatis, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tBarkod.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;tBarkod.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="lSandart3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lSandart3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="lSandart3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lSandart3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>505, 92</value>
+  </data>
+  <data name="lSandart3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 20</value>
+  </data>
+  <data name="lSandart3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lSandart3.Text" xml:space="preserve">
+    <value>Ürün Açıklaması</value>
+  </data>
+  <data name="lSandart3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lSandart3.Name" xml:space="preserve">
+    <value>lSandart3</value>
+  </data>
+  <data name="&gt;&gt;lSandart3.Type" xml:space="preserve">
+    <value>BarkodluSatis.lSandart, BarkodluSatis, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lSandart3.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;lSandart3.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="lSandart2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lSandart2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="lSandart2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lSandart2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>553, 56</value>
+  </data>
+  <data name="lSandart2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 20</value>
+  </data>
+  <data name="lSandart2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lSandart2.Text" xml:space="preserve">
+    <value>Ürün Adı</value>
+  </data>
+  <data name="&gt;&gt;lSandart2.Name" xml:space="preserve">
+    <value>lSandart2</value>
+  </data>
+  <data name="&gt;&gt;lSandart2.Type" xml:space="preserve">
+    <value>BarkodluSatis.lSandart, BarkodluSatis, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lSandart2.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;lSandart2.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="lSandart1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lSandart1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="lSandart1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lSandart1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>564, 18</value>
+  </data>
+  <data name="lSandart1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="lSandart1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lSandart1.Text" xml:space="preserve">
+    <value>Barkod</value>
+  </data>
+  <data name="&gt;&gt;lSandart1.Name" xml:space="preserve">
+    <value>lSandart1</value>
+  </data>
+  <data name="&gt;&gt;lSandart1.Type" xml:space="preserve">
+    <value>BarkodluSatis.lSandart, BarkodluSatis, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lSandart1.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;lSandart1.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.Name" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.Parent" xml:space="preserve">
+    <value>splitContainer1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="contextMenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="silToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 22</value>
+  </data>
+  <data name="silToolStripMenuItem.Text" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="düzenleToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 22</value>
+  </data>
+  <data name="düzenleToolStripMenuItem.Text" xml:space="preserve">
+    <value>Düzenle</value>
+  </data>
+  <data name="contextMenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 48</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStrip1.Name" xml:space="preserve">
+    <value>contextMenuStrip1</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gridozel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="gridozel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="gridozel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="gridozel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1904, 753</value>
+  </data>
+  <data name="gridozel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;gridozel.Name" xml:space="preserve">
+    <value>gridozel</value>
+  </data>
+  <data name="&gt;&gt;gridozel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gridozel.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;gridozel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.Name" xml:space="preserve">
+    <value>splitContainer1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.Parent" xml:space="preserve">
+    <value>splitContainer1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="splitContainer1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1904, 1041</value>
+  </data>
+  <data name="splitContainer1.SplitterDistance" type="System.Int32, mscorlib">
+    <value>284</value>
+  </data>
+  <data name="splitContainer1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Name" xml:space="preserve">
+    <value>splitContainer1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1904, 1041</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Urun Giriş </value>
+  </data>
+  <data name="&gt;&gt;silToolStripMenuItem.Name" xml:space="preserve">
+    <value>silToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;silToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;düzenleToolStripMenuItem.Name" xml:space="preserve">
+    <value>düzenleToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;düzenleToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>fUrunGiris</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
