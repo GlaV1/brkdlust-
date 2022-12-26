@@ -1,0 +1,293 @@
+
+-- --------------------------------------------------
+-- Entity Designer DDL Script for SQL Server 2005, 2008, 2012 and Azure
+-- --------------------------------------------------
+-- Date Created: 05/22/2022 13:13:17
+-- Generated from EDMX file: E:\UDEMY\ProjeOrnek\BarkodluSatis\BarkodluSatis\Model1.edmx
+-- --------------------------------------------------
+
+SET QUOTED_IDENTIFIER OFF;
+GO
+USE [BarkodDb];
+GO
+IF SCHEMA_ID(N'dbo') IS NULL EXECUTE(N'CREATE SCHEMA [dbo]');
+GO
+
+-- --------------------------------------------------
+-- Dropping existing FOREIGN KEY constraints
+-- --------------------------------------------------
+
+
+-- --------------------------------------------------
+-- Dropping existing tables
+-- --------------------------------------------------
+
+IF OBJECT_ID(N'[dbo].[Barkod]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[Barkod];
+GO
+IF OBJECT_ID(N'[dbo].[Guvenlik]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[Guvenlik];
+GO
+IF OBJECT_ID(N'[dbo].[HizliUrun]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[HizliUrun];
+GO
+IF OBJECT_ID(N'[dbo].[Islem]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[Islem];
+GO
+IF OBJECT_ID(N'[dbo].[IslemOzet]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[IslemOzet];
+GO
+IF OBJECT_ID(N'[dbo].[Kullanici]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[Kullanici];
+GO
+IF OBJECT_ID(N'[dbo].[Sabit]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[Sabit];
+GO
+IF OBJECT_ID(N'[dbo].[Satis]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[Satis];
+GO
+IF OBJECT_ID(N'[dbo].[StokHareket]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[StokHareket];
+GO
+IF OBJECT_ID(N'[dbo].[Terazi]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[Terazi];
+GO
+IF OBJECT_ID(N'[dbo].[Urun]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[Urun];
+GO
+IF OBJECT_ID(N'[dbo].[UrunGrup]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[UrunGrup];
+GO
+
+-- --------------------------------------------------
+-- Creating all tables
+-- --------------------------------------------------
+
+-- Creating table 'Urun'
+CREATE TABLE [dbo].[Urun] (
+    [UrunId] int IDENTITY(1,1) NOT NULL,
+    [Barkod] nvarchar(50)  NULL,
+    [UrunAd] nvarchar(100)  NULL,
+    [Aciklama] nvarchar(100)  NULL,
+    [UrunGrup] nvarchar(50)  NULL,
+    [AlisFiyat] float  NULL,
+    [SatisFiyat] float  NULL,
+    [KdvOrani] int  NULL,
+    [KdvTutari] float  NULL,
+    [Birim] nvarchar(50)  NULL,
+    [Miktar] float  NULL,
+    [Tarih] datetime  NULL,
+    [Kullanici] nvarchar(50)  NULL,
+    [Onay] bit  NULL
+);
+GO
+
+-- Creating table 'Terazi'
+CREATE TABLE [dbo].[Terazi] (
+    [Id] int IDENTITY(1,1) NOT NULL,
+    [TeraziOnEk] int  NULL
+);
+GO
+
+-- Creating table 'HizliUrun'
+CREATE TABLE [dbo].[HizliUrun] (
+    [Id] int IDENTITY(1,1) NOT NULL,
+    [Barkod] nvarchar(20)  NULL,
+    [UrunAd] nvarchar(100)  NULL,
+    [Fiyat] float  NULL
+);
+GO
+
+-- Creating table 'Islem'
+CREATE TABLE [dbo].[Islem] (
+    [Id] int IDENTITY(1,1) NOT NULL,
+    [IslemNo] int  NULL
+);
+GO
+
+-- Creating table 'IslemOzet'
+CREATE TABLE [dbo].[IslemOzet] (
+    [Id] int IDENTITY(1,1) NOT NULL,
+    [IslemNo] int  NULL,
+    [Iade] bit  NULL,
+    [OdemeSekli] nvarchar(50)  NULL,
+    [Nakit] float  NULL,
+    [Kart] float  NULL,
+    [Gelir] bit  NULL,
+    [Gider] bit  NULL,
+    [AlisFiyatToplam] float  NULL,
+    [Aciklama] nvarchar(500)  NULL,
+    [Tarih] datetime  NULL,
+    [Kullanici] nvarchar(50)  NULL
+);
+GO
+
+-- Creating table 'Satis'
+CREATE TABLE [dbo].[Satis] (
+    [SatisId] int IDENTITY(1,1) NOT NULL,
+    [IslemNo] int  NULL,
+    [UrunAd] nvarchar(50)  NULL,
+    [Barkod] nvarchar(50)  NULL,
+    [UrunGrup] nvarchar(50)  NULL,
+    [Birim] nvarchar(50)  NULL,
+    [AlisFiyat] float  NULL,
+    [SatisFiyat] float  NULL,
+    [Miktar] float  NULL,
+    [Toplam] float  NULL,
+    [KdvTutari] float  NULL,
+    [OdemeSekli] nvarchar(50)  NULL,
+    [Iade] bit  NULL,
+    [Tarih] datetime  NULL,
+    [Kullanici] nvarchar(50)  NULL
+);
+GO
+
+-- Creating table 'UrunGrup'
+CREATE TABLE [dbo].[UrunGrup] (
+    [Id] int IDENTITY(1,1) NOT NULL,
+    [UrunGrupAd] nvarchar(100)  NULL
+);
+GO
+
+-- Creating table 'Barkod'
+CREATE TABLE [dbo].[Barkod] (
+    [Id] int IDENTITY(1,1) NOT NULL,
+    [BarkodNo] int  NULL
+);
+GO
+
+-- Creating table 'StokHareket'
+CREATE TABLE [dbo].[StokHareket] (
+    [Id] int IDENTITY(1,1) NOT NULL,
+    [Barkod] nvarchar(50)  NULL,
+    [UrunAd] nvarchar(50)  NULL,
+    [Birim] nvarchar(50)  NULL,
+    [Miktar] float  NULL,
+    [UrunGrup] nvarchar(50)  NULL,
+    [Kullanici] nvarchar(50)  NULL,
+    [Tarih] datetime  NULL
+);
+GO
+
+-- Creating table 'Sabit'
+CREATE TABLE [dbo].[Sabit] (
+    [Id] int IDENTITY(1,1) NOT NULL,
+    [KartKomisyon] int  NULL,
+    [Yazici] bit  NULL,
+    [AdSoyad] nvarchar(50)  NULL,
+    [Unvan] nvarchar(100)  NULL,
+    [Adres] nvarchar(500)  NULL,
+    [Telefon] nvarchar(50)  NULL,
+    [Eposta] nvarchar(50)  NULL
+);
+GO
+
+-- Creating table 'Kullanici'
+CREATE TABLE [dbo].[Kullanici] (
+    [Id] int IDENTITY(1,1) NOT NULL,
+    [AdSoyad] nvarchar(100)  NULL,
+    [Telefon] nvarchar(100)  NULL,
+    [EPosta] nvarchar(50)  NULL,
+    [KullaniciAd] nvarchar(50)  NULL,
+    [Sifre] nvarchar(50)  NULL,
+    [Satis] bit  NULL,
+    [Rapor] bit  NULL,
+    [Stok] bit  NULL,
+    [UrunGiris] bit  NULL,
+    [Ayarlar] bit  NULL,
+    [FiyatGuncelle] bit  NULL,
+    [Yedekleme] bit  NULL
+);
+GO
+
+-- Creating table 'Guvenlik'
+CREATE TABLE [dbo].[Guvenlik] (
+    [Id] int IDENTITY(1,1) NOT NULL,
+    [baslangic] nvarchar(10)  NULL,
+    [bitis] nvarchar(10)  NULL
+);
+GO
+
+-- --------------------------------------------------
+-- Creating all PRIMARY KEY constraints
+-- --------------------------------------------------
+
+-- Creating primary key on [UrunId] in table 'Urun'
+ALTER TABLE [dbo].[Urun]
+ADD CONSTRAINT [PK_Urun]
+    PRIMARY KEY CLUSTERED ([UrunId] ASC);
+GO
+
+-- Creating primary key on [Id] in table 'Terazi'
+ALTER TABLE [dbo].[Terazi]
+ADD CONSTRAINT [PK_Terazi]
+    PRIMARY KEY CLUSTERED ([Id] ASC);
+GO
+
+-- Creating primary key on [Id] in table 'HizliUrun'
+ALTER TABLE [dbo].[HizliUrun]
+ADD CONSTRAINT [PK_HizliUrun]
+    PRIMARY KEY CLUSTERED ([Id] ASC);
+GO
+
+-- Creating primary key on [Id] in table 'Islem'
+ALTER TABLE [dbo].[Islem]
+ADD CONSTRAINT [PK_Islem]
+    PRIMARY KEY CLUSTERED ([Id] ASC);
+GO
+
+-- Creating primary key on [Id] in table 'IslemOzet'
+ALTER TABLE [dbo].[IslemOzet]
+ADD CONSTRAINT [PK_IslemOzet]
+    PRIMARY KEY CLUSTERED ([Id] ASC);
+GO
+
+-- Creating primary key on [SatisId] in table 'Satis'
+ALTER TABLE [dbo].[Satis]
+ADD CONSTRAINT [PK_Satis]
+    PRIMARY KEY CLUSTERED ([SatisId] ASC);
+GO
+
+-- Creating primary key on [Id] in table 'UrunGrup'
+ALTER TABLE [dbo].[UrunGrup]
+ADD CONSTRAINT [PK_UrunGrup]
+    PRIMARY KEY CLUSTERED ([Id] ASC);
+GO
+
+-- Creating primary key on [Id] in table 'Barkod'
+ALTER TABLE [dbo].[Barkod]
+ADD CONSTRAINT [PK_Barkod]
+    PRIMARY KEY CLUSTERED ([Id] ASC);
+GO
+
+-- Creating primary key on [Id] in table 'StokHareket'
+ALTER TABLE [dbo].[StokHareket]
+ADD CONSTRAINT [PK_StokHareket]
+    PRIMARY KEY CLUSTERED ([Id] ASC);
+GO
+
+-- Creating primary key on [Id] in table 'Sabit'
+ALTER TABLE [dbo].[Sabit]
+ADD CONSTRAINT [PK_Sabit]
+    PRIMARY KEY CLUSTERED ([Id] ASC);
+GO
+
+-- Creating primary key on [Id] in table 'Kullanici'
+ALTER TABLE [dbo].[Kullanici]
+ADD CONSTRAINT [PK_Kullanici]
+    PRIMARY KEY CLUSTERED ([Id] ASC);
+GO
+
+-- Creating primary key on [Id] in table 'Guvenlik'
+ALTER TABLE [dbo].[Guvenlik]
+ADD CONSTRAINT [PK_Guvenlik]
+    PRIMARY KEY CLUSTERED ([Id] ASC);
+GO
+
+-- --------------------------------------------------
+-- Creating all FOREIGN KEY constraints
+-- --------------------------------------------------
+
+-- --------------------------------------------------
+-- Script has ended
+-- --------------------------------------------------
